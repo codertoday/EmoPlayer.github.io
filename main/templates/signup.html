@@ -29,7 +29,7 @@
                     <label for="confirmpassword">Confirm Password</label>
                     <input type="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
 
-                    <button>Sign Up</button>
+                    <button onclick=signUp()>Sign Up</button>
                     <div class="options">
                         <div><a href="./login.html" style="color:white;text-decoration:none">Back to Login</a></div>
                         
@@ -37,5 +37,22 @@
                 </form>
 
             </div>
+        <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
+<script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js'
+      // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+    import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js'
+  
+      // Add Firebase products that you want to use
+    import { getAuth } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js'
+    import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js'
+    
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+  const auth = getAuth();
+</script>
+
+<script src="../static/js/signup.js"></script>
 </body>
+
 </html>
