@@ -12,24 +12,24 @@
         <div class="background" >
             <div class="shape"></div>
             <div class="shape1"></div>
-            <form >
+            <form action="connect.php" method="post">
                 <h3>Sign Up</h3>
                     <label for="name">Name</label>
-                    <input for="text" id="name" placeholder="Enter Name">
+                    <input for="text" id="namebox" placeholder="Enter Name" name="Name" required>
                     
                     <label for="email">Email</label>
-                    <input for="text" id="email" placeholder="Enter Email">
+                    <input for="text" id="emailbox" placeholder="Enter Email" name="EmailID" required>
                     
                     <label for="phone">Mobile Number</label>
-                    <input for="text" id="phone" placeholder="Enter Phone">
+                    <input for="text" id="phonebox" placeholder="Enter Phone" name="PhoneNo" required>
                     
                     <label for="setpassword">Set Password</label>
-                    <input type="setpassword" id="setpassword" placeholder="Create Password">
+                    <input type="password" id="setpasswordbox" placeholder="Create Password" name="pass1" required>
                     
                     <label for="confirmpassword">Confirm Password</label>
-                    <input type="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
+                    <input type="password" id="confirmpasswordbox" placeholder="Confirm Password" name="pass2" required>
 
-                    <button onclick=signUp()>Sign Up</button>
+                    <button type="submit" onclick="validate()">Sign Up</button>
                     <div class="options">
                         <div><a href="./login.html" style="color:white;text-decoration:none">Back to Login</a></div>
                         
@@ -37,22 +37,37 @@
                 </form>
 
             </div>
-        <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
-<script type="module">
-    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js'
-      // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
-    import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js'
-  
-      // Add Firebase products that you want to use
-    import { getAuth } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js'
-    import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js'
-    
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
-  const auth = getAuth();
-</script>
-
-<script src="../static/js/signup.js"></script>
 </body>
+<script>
+function validate(){
 
+var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+var Fname = document.getElementById('namebox').value;
+if(!regName.test(Fname)){
+    alert('Invalid name given.');
+    return false;
+}
+
+var regEmail = /^[^@]+@\w+(\.\w+)+\w$/;
+var mail = document.getElementById('emailbox').value;
+if(!regEmail.test(mail)){
+    alert('Invalid email given.');
+    return false;
+}
+
+var regPhone = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+var mail = document.getElementById('phonebox').value;
+if(!regPhone.test(mail)){
+    alert('Invalid mobile no given.');
+    return false;
+}
+
+var password = document.getElementById('setpasswordbox').value;
+var confirmPassword = document.getElementById('confirmpasswordbox').value;
+    if (password != confirmPassword) {
+        alert("Passwords do not match.");
+        return false;
+        }
+}
+</script>
 </html>
