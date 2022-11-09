@@ -9,9 +9,9 @@ angry_playlist = ["ACDC-BackinBlack", "OhTheLarceny-ManonaMission", "LedZeppelin
 angry_title = ["ACDC - Back in Black", "Oh The Larceny - Man on a Mission", "Led Zeppelin - Immigrant Song"];
 angry_poster = ["static/song_imgs/back_in_black.jpg", "static/song_imgs/man_on_a_mission.jpg", "static/song_imgs/immigrant_song.jpg"];
 
-happy_playlist = ["WillPharrell-Happy", "Kool&TheGang-Celebration", "RickAstley-NeverGonnaGiveYouUp"];
-happy_title = ["Will Pharrell - Happy", "Kool & The Gang - Celebration", "Rick Astley - Never Gonna Give You Up"];
-happy_poster = ["static/song_imgs/happy.jpg", "static/song_imgs/celebration.jpg", "static/song_imgs/never_gonna_give_you_up.jpg"];
+happy_playlist = ["Balam Pichkari", "Barso Re", "Dil Na Jaane Kyun", "Jiya re", "Kesariya", "Luv u Zindaggi", "Makhna", "Matargashti", "Sooraj Ki Baahon Mein", "Zindagi Ek Safar"];
+happy_title = ["Balam Pichkari", "Barso Re", "Dil Na Jaane Kyun", "Jiya re", "Kesariya", "Luv u Zindagi", "Makhna", "Matargashti", "Sooraj Ki Baahon Mein", "Zindagi Ek Safar"];
+happy_poster = ["static/song_imgs/Balam_Pichkari_cover.jpg", "static/song_imgs/Guruposter.jpg", "static/song_imgs/jayantabhai-ki-luv-story.jpg", "static/song_imgs/jiya re.jpg", "static/song_imgs/kesariya.jpg","static/song_imgs/Dear_Zindagi_poster.jpg", "static/song_imgs/makhna.jpg", "static/song_imgs/Tamasha.jpg", "static/song_imgs/Zindagi-Na-Milegi-Dobara.jpg", "static/song_imgs/Zindagi Ek Safar.jpg" ];
 
 calm_playlist = ["SmashMouth-AllStar", "DJOkawari-SpeedofLight", "BillieEilish-BadGuy"];
 calm_title = ["Smash Mouth - All Star", "DJ Okawari - Speed of Light", "Billie Eilish - Bad Guy"];
