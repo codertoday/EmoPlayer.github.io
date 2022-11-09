@@ -13,13 +13,13 @@ happy_playlist = ["Balam Pichkari", "Barso Re", "Dil Na Jaane Kyun", "Jiya re", 
 happy_title = ["Balam Pichkari", "Barso Re", "Dil Na Jaane Kyun", "Jiya re", "Kesariya", "Luv u Zindagi", "Makhna", "Matargashti", "Sooraj Ki Baahon Mein", "Zindagi Ek Safar"];
 happy_poster = ["static/song_imgs/Balam_Pichkari_cover.jpg", "static/song_imgs/Guruposter.jpg", "static/song_imgs/jayantabhai-ki-luv-story.jpg", "static/song_imgs/jiya re.jpg", "static/song_imgs/kesariya.jpg","static/song_imgs/Dear_Zindagi_poster.jpg", "static/song_imgs/makhna.jpg", "static/song_imgs/Tamasha.jpg", "static/song_imgs/Zindagi-Na-Milegi-Dobara.jpg", "static/song_imgs/Zindagi Ek Safar.jpg" ];
 
-calm_playlist = ["SmashMouth-AllStar", "DJOkawari-SpeedofLight", "BillieEilish-BadGuy"];
-calm_title = ["Smash Mouth - All Star", "DJ Okawari - Speed of Light", "Billie Eilish - Bad Guy"];
-calm_poster = ["static/song_imgs/all_star.jpeg", "static/song_imgs/speed_of_light.jpg", "static/song_imgs/bad_guy.jpg"];
+calm_playlist = ["Aas Pass Hai Khuda", "Allah Ke Bande", "Behe Chala","Behti Hawa Sa Tha Woh","Dil Kyun","Hamdard","Hawayein","Kasto Mazza hai","Nazm Nazm","Samjhawan"];
+calm_title = ["Aas Pass Hai Khuda", "Allah Ke Bande", "Behe Chala","Behti Hawa Sa Tha Woh","Dil Kyun","Hamdard","Hawayein","Kasto Mazza","Nazm Nazm","Samjhawan"];
+calm_poster = ["static/song_imgs/AnjanaAnjani.jpg", "static/song_imgs/Kailasa.jpg", "static/song_imgs/Uri.jpg","static/song_imgs/3Idiots.jpg","static/song_imgs/Kites.jpg","static/song_imgs/Ek_Villain_Poster.jpg","static/song_imgs/JabHarySejal.jpg","static/song_imgs/Parineeta.jpg","static/song_imgs/BareilyBarfi.jpg","static/song_imgs/Humpty.jpg"];
 
-sad_playlist = ["Adele-Hello", "CelineDion-MyHeartWillGoOn", "GaryJules-MadWorld"];
-sad_title = ["Adele - Hello", "Celine Dion - My Heart Will Go On", "Gary Jules - Mad World"];
-sad_poster = ["static/song_imgs/hello.JPG", "static/song_imgs/my_heart_will_go_on.jpg", "static/song_imgs/mad_world.jpg"];
+sad_playlist = ["Aaoge Jab Tum", "Ae Dil Hai Mushkil", "Channa Mereya","Dil Ibaadat","Jag Soona Soona Lage","Khushi Ke Pal Kahan Dhundu","Kya Khoya","Pachtaoge","Thodi Jagah","Tum Hi Ho"];
+sad_title = ["Aaoge Jab Tum", "Ae Dil Hai Mushkil", "Channa Mereya","Dil Ibaadat","Jag Soona Soona Lage","Khushi Ke Pal Kahan Dhundu","Kya Khoya","Pachtaoge","Thodi Jagah","Tum Hi Ho"];
+sad_poster = ["static/song_imgs/JabWeMet.jpg", "static/song_imgs/Ae_Dil_Hai_Mushkil.jpg", "static/song_imgs/Ae_Dil_Hai_Mushkil.jpg","static/song_imgs/TumMile.jpg","static/song_imgs/OmShantiOm.jpeg","static/song_imgs/Shanghai.jpg","static/song_imgs/Khamoshiyan.jpg","static/song_imgs/Pachtaoge.jpg","static/song_imgs/Marjaavan.jpeg","static/song_imgs/Aashiqui2.jpg"];
 
 ext = ".mp3";
 agent = navigator.userAgent.toLowerCase()
