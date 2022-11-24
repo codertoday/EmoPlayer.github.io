@@ -32,7 +32,7 @@
 
 
 body{
-    background-color: #080710;
+    background: url('https://pbs.twimg.com/media/E7YIFrXWUAErEIk.jpg');
 }
 
 .shape:first-child{
@@ -50,12 +50,13 @@ form{
     top: 50%;
     left: 50%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(15px);
     border: 2px solid rgba(255, 255,255, 0.1);
     box-shadow: 0 0 40px rgba(7, 8, 16, 0.6);
     padding: 50px 35px;
-    color : #ffffff;
+    font-weight: 400;
+    /* color : #ffffff; */
 }
 
 form * {

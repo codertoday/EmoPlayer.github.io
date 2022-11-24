@@ -288,28 +288,28 @@ const getExpression = () => {
                     audio.src = dir + angry_playlist[0] + ext;
                     current_song.innerHTML = angry_title[playlist_index];
                     $("#circle-image img").attr("src", angry_poster[playlist_index]);
-                    $("body").css("background-image", "linear-gradient(to bottom, rgb(255, 0, 0) , rgb(255, 0, 76))");
+                    $("body").css("background", "linear-gradient(to bottom, rgb(255, 0, 0) , rgb(255, 0, 76))");
                     break;
                 case "Happy":
                     playlist_index = 0;
                     audio.src = dir + happy_playlist[0] + ext;
                     current_song.innerHTML = happy_title[playlist_index];
                     $("#circle-image img").attr("src", happy_poster[playlist_index]);
-                    $("body").css("background-image", "linear-gradient(to bottom, rgba(188, 203, 7, 1) 0%, rgba(219, 203, 88, 1) 100%)");
+                    $("body").css("background", "url(https://www.sunwaymedical.com/images/establish.jpg)");
                     break;
                 case "Calm":
                     playlist_index = 0;
                     audio.src = dir + calm_playlist[0] + ext;
                     current_song.innerHTML = calm_title[playlist_index];
                     $("#circle-image img").attr("src", calm_poster[playlist_index]);
-                    $("body").css("background-image", "linear-gradient(to bottom, rgba(137, 170, 75, 1) 0%, rgba(77, 138, 9, 1) 100%)");
+                    $("body").css("background", "url(https://wallup.net/wp-content/uploads/2016/12/07/137513-field-depth_of_field-road-blonde-white_dress-Jake_Olson-Nebraska-children.jpg) -200px 60px ");
                     break;
                 case "Sad":
                     playlist_index = 0;
                     audio.src = dir + sad_playlist[0] + ext;
                     current_song.innerHTML = sad_title[playlist_index];
                     $("#circle-image img").attr("src", sad_poster[playlist_index]);
-                    $("body").css("background-image", "linear-gradient(to bottom, rgba(14, 9, 121, 1) 69%, rgba(0, 189, 255, 1) 100%)");
+                    $("body").css("background", "url(https://media.zicxa.com/507566)  ");
                     break;
             }
         });

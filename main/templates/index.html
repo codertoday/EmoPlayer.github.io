@@ -8,10 +8,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emotion-Based Music Player</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-    <link rel="shortcut icon" href="#">
+    <link rel="shortcut icon" href="#">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- JqUERY AND BootStrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#333333;color: #fff;">
+        <img src="/assets/Group.png" alt="">
+        <a class="navbar-brand" href="#" style="padding-left:10px;color: #fff">EmoPlayer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" style="font-size:larger;color: #fff">About us <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" style="font-size:larger;color: #fff">Contact us<span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+        <button class="btn" id="login-btn" type="submit" onclick="location.href='./login.html'">Login</button>
+    </nav>
+
+    <!-- <img class="headphone" src="{% static 'imgs/bgimage.png' %}"> -->
+    <div class="main-container">
     <div class="music-container">
         <div class="current-mood">
             <h1 id="status"></h1>
@@ -29,7 +69,7 @@
                 <div id="volume-container">
                     <input type="range" class="slider" id="volumeslider" min="0" max="100" value="100" step="1">
                 </div>
-
+                
                 <div id="volume-low-button">
                     <img src="{% static 'imgs/volume-low.png' %}" id="volume-down">
                 </div>
@@ -43,12 +83,12 @@
                         <img src="{% static 'imgs/square.jpg' %}" alt="">
                     </div>
                 </div>
-
+               
                 <div id="currentTime">
                     <span id="curtimetext">00:00</span>
                     <span id="durtimetext">00:00</span>
                 </div>
-
+                
                 <div id="mute-button">
                     <button id="mutebtn" style="background: transparent; border: none;"><img src="{% static 'imgs/speaker.png' %}" alt=""></button>
                 </div>
@@ -71,12 +111,14 @@
                         <button class="next" id="nextbtn"><img src="{% static 'imgs/next_song.png' %}" alt=""></button>
                     </div>
                 </div>
+           
             </div>
         </div>
 
         <div class="mood-button">
-            <button id="test" style="margin-top: 15px; border-radius: 5px; height: 30px; width: 150px; color: white; background: #333333; border: none;">Detect New Mood</button>
+            <button id="test" style="margin-top: 25px; border-radius: 12px; height: 40px; width: 180px; color: white;font-size: 110%; background: black; border: none;">Detect New Mood</button>
         </div>
+    </div>
     </div>
 
     <!--Problem is the expression variable isn't being passed to here properly-->
