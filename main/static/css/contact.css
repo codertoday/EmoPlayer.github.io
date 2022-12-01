@@ -1,0 +1,34 @@
+body{
+    /* background-image: url('https://i.pinimg.com/564x/c5/67/3b/c5673bdc4d86b83b347c35d26114b9be.jpg'); */
+    /* background-size: cover; */
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size:2rem;
+
+    margin:0.5rem;
+    margin-top :1.2rem;
+    color: #fff;
+}
+.contact{
+    background-color: #b19cd9;
+width: 100%;
+height: 100%;
+}
+.contact-form{
+    background-color: white;
+    border-radius: 5px;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+.form-contact{
+    display: flex;
+    flex-direction: column;
+}

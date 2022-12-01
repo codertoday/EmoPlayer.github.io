@@ -1,0 +1,75 @@
+/* fonts */
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sora', sans-serif; */
+
+.nav-i{
+    font-size:1.5rem
+}
+#login{
+    width:8rem;
+    position:relative;
+    margin-left:50rem;
+    font-size:1.3rem;
+    background-color: #702963;
+}
+#login{
+    width:130px;
+     font-weight: 700;
+     background-color: #702963;
+     color:white;
+     font-size:1rem
+}
+#login:hover{
+    background-color: #fff;
+    color:#702963;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    width: 70%;
+    margin:0.5rem;
+    margin-left: 6rem;
+    margin-top:6rem;
+}
+.carousel{
+    margin:0.5rem;
+    margin-right: 3rem;
+
+}
+.carousel-imgs{
+    width:24rem;
+    height: 24rem;
+    margin-top:2rem
+}
+.main-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:2rem;
+    width:28rem;
+    text-align:left;
+}
+.details{
+    width:28rem;
+    color:#505050;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size:1rem;
+    text-align:left;
+    margin-top:1rem;
+}
+#getStarted-btn{
+    background-color: #482c9c;
+    color:#fff;
+    width:7rem;
+    border:1px #482c9c solid 
+}
+#getStarted-btn:hover{
+    color: #482c9c;
+    background-color:#fff;
+    width:7rem;
+
+}
+ 

@@ -20,7 +20,7 @@
     position: absolute;
 }
 
-.background .shape1{
+/* .background .shape1{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -28,20 +28,22 @@
     background: linear-gradient(to right, #ff512f, #f09819);
     right: -30px;
     bottom: -80px;
-}
+} */
 
 
 body{
-    background-color: #080710;
+    background:url('http://britasia.tv/wp-content/uploads/2019/02/bollywood-collage-220151208193011.jpg') ;
+    background-size: cover;
+
 }
 
-.shape:first-child{
+/* .shape:first-child{
     background: linear-gradient( #a88beb, #f8cee8);
     left: -100px;
     top: -100px;
-}
+} */
 
-form{
+.form{
     width: 550px;
     height: 800px;
     background-color: rgba(255, 255,255, 0.13);
@@ -50,12 +52,13 @@ form{
     top: 50%;
     left: 50%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(16px);
     border: 2px solid rgba(255, 255,255, 0.1);
     box-shadow: 0 0 40px rgba(7, 8, 16, 0.6);
     padding: 30px 35px;
-    color : #ffffff;
+    color : #000000;
+
 }
 
 form * {

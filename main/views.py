@@ -14,4 +14,18 @@ def expression(request):
     expression = getExpression(uri)
     return JsonResponse({"mood": expression})
 
+def music(request):
+    return render(request, 'music.html')
+
+def login(request):
+    return render(request, 'login.html')
+
+def signup(request):
+    return render(request, 'signup.html')
+
+def contact(request):
+    return render(request, 'contact.html')
+
+def about(request):
+    return render(request, 'about.html')
 
